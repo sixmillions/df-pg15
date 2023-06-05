@@ -1,1 +1,6 @@
 FROM postgres:15
+
+ENV \
+    PORT=5432 
+
+EXPOSE 5432
